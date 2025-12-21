@@ -52,7 +52,7 @@ Download from releases section
 ### 5.Run the Application
 Start the local web server using Uvicorn. Run this command from the root folder:
 ```bash
-uvicorn app.main:app --reload
+uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
 Access the App: Open your web browser and go to http://127.0.0.1:8000.
