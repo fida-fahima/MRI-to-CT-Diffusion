@@ -29,3 +29,30 @@ The model was evaluated on unseen test patients, achieving high structural fidel
 * **PSNR:** **24.92 dB** 
 * **SSIM:** **0.84** 
 * **FID:** **68.35** 
+
+##  Installation & Usage
+
+Follow these steps to set up the project from scratch on your local machine.
+
+### 1. Clone the Repository
+Open your terminal and clone the project:
+```bash
+git clone [https://github.com/fida-fahima/MRI-to-CT-Diffusion.git](https://github.com/fida-fahima/MRI-to-CT-Diffusion.git)
+cd MRI-to-CT-Diffusion
+```
+### 2.Set up the Environment
+It is recommended to use a virtual environment to avoid conflicts.
+
+### 3.Install Dependencies
+Install all required libraries in requiremnts.txt
+
+### 4.Setup Model Weights
+Download from releases section
+
+### 5.Run the Application
+Start the local web server using Uvicorn. Run this command from the root folder:
+```bash
+uvicorn app.main:app --reload
+```
+
+Access the App: Open your web browser and go to http://127.0.0.1:8000.
