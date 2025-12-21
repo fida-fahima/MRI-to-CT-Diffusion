@@ -1,0 +1,17 @@
+torch
+torchvision
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+scikit-learn
+scikit-image
+albumentations
+lpips
+scipy
+Pillow
+fastapi
+uvicorn[standard]
+python-multipart
+nibabel

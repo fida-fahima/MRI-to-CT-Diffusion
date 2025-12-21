@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI-to-CT Translation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MRI-to-CT Diffusion Model</h1>
+        <p>Upload a 3D MRI scan (<code>.nii.gz</code>) to generate a synthetic CT scan.</p>
+        
+        <form id="upload-form">
+            <input type="file" id="file-input" accept=".nii.gz" required>
+            <br>
+            <button type="submit" id="submit-button">Generate CT</button>
+        </form>
+        
+        <div id="status"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

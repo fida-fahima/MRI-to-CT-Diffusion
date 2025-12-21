@@ -1,0 +1,64 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f7f6;
+    color: #333;
+}
+.container {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+h1 {
+    color: #222;
+    margin-top: 0;
+}
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+input[type="file"] {
+    display: block;
+    margin: 1.5rem auto 0;
+    width: 100%;
+    border: 2px dashed #007bff;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #fdfdfd;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background-color 0.2s, transform 0.2s;
+}
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+    transform: translateY(0);
+}
+#status {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    min-height: 1.5em;
+}
