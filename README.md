@@ -1,4 +1,4 @@
-# initial version of project
+initial version of project
 
 # MRI-to-CT Translation using Hybrid Diffusion Model
 
